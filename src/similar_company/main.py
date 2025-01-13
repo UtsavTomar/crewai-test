@@ -10,7 +10,6 @@ from similar_company.crew import SimilarCompanyFinderTemplateCrew
 
 
 def run():
-    inputs = {"test": "testing"}
 
     SimilarCompanyFinderTemplateCrew().crew().kickoff(inputs=inputs)
 
