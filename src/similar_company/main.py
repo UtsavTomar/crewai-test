@@ -10,6 +10,7 @@ from similar_company_finder_template.crew import SimilarCompanyFinderTemplateCre
 
 
 def run():
+    inputs = input("Enter comany detail")
 
     SimilarCompanyFinderTemplateCrew().crew().kickoff(inputs=inputs)
 
