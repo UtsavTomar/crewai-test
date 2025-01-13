@@ -12,11 +12,11 @@ dependencies = [
 ]
 
 [project.scripts]
-similar_company_finder_template = "similar_company_finder_template.main:run"
-run_crew = "similar_company_finder_template.main:run"
-train = "similar_company_finder_template.main:train"
-replay = "similar_company_finder_template.main:replay"
-test = "similar_company_finder_template.main:test"
+similar_company = "similar_company.main:run"
+run_crew = "similar_company.main:run"
+train = "similar_company.main:train"
+replay = "similar_company.main:replay"
+test = "similar_company.main:test"
 
 [build-system]
 requires = [
