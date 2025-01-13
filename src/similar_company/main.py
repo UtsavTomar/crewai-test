@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import sys
 
-from similar_company_finder_template.crew import SimilarCompanyFinderTemplateCrew
+from similar_company.crew import SimilarCompanyFinderTemplateCrew
 
 # This main file is intended to be a way for your to run your
 # crew locally, so refrain from adding necessary logic into this file.
